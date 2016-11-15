@@ -14,6 +14,11 @@ In my thesis project I've considered just a simple scenario, implementing, for e
 
 Responses are RESTful and can be easily managed in my android application, designed following Material Design guidelines.
 
+## Requisites
+* CoAPthon
+* CoAPthon HTTP Proxy Server
+* OpenVPN client (suggested)
+
 ##CoAPthon Custom resource:
 CoAPthon custom resource, should be declared in a separated file. To import it, add these lines in **coapserver.py** file:
 
@@ -203,15 +208,18 @@ class AllMetersResource(Resource):
 setlocal enabledelayedexpansion
 set COAP_PORT=5683
 set /P INPUT=Number of servers: 
-start python IPv4Server.py -p / -hp PROXY_PORT -ip 192.168.1.2 -cp !port!
+start python IPv4Server.py -p / -hp PROXY_PORT -ip PROXY_IP -cp !port!
 FOR /L %%I IN (1, 1, %INPUT%) DO ( 
-		start python coapserver.py -i 192.168.1.2 -p !port!
+		start python coapserver.py -i COAP_IP -p !port!
  		set /a port+=1
 )
 ```
-In this batch script, you have to specify:
+This script allows to start multiple instance of CoAP server to simulate different buildings.
+You have to specify:
 * CoAP Server Port (eg **5683**);
 * Proxy Server Port
+* Proxy Server IP address
+* CoAP Server IP address
 
 ###OSX script file
 ```
@@ -219,13 +227,20 @@ In this batch script, you have to specify:
 port=5683
 echo Enter the number of servers
 read N
-python IPv4Server.py -p / -hp 8080 -ip 192.168.1.3 -cp !port! &
+python IPv4Server.py -p / -hp PROXY_PORT -ip PROXY_IP -cp !port! &
 for (( i=0; i<N; i++ ))
 do
-	python coapserver.py -i 192.168.1.3 -p $((port + i)) -m "" &
+	python coapserver.py -i COAP_IP -p $((port + i)) -m "" &
 done
 ```
+As in the previous case, this script allows to start multiple instance of CoAP server to simulate different buildings.
+You have to specify:
+* CoAP Server Port (eg **5683**);
+* Proxy Server Port
+* Proxy Server IP address
+* CoAP Server IP address
 
+## Application Screenshots
 ![01main](https://cloud.githubusercontent.com/assets/11563183/20307167/8f07e020-ab3e-11e6-8b8c-b839f9411f61.jpg) ![02drawer](https://cloud.githubusercontent.com/assets/11563183/20307164/8f05643a-ab3e-11e6-9c87-e0eb92b73d2c.jpg)
 ![03configuration](https://cloud.githubusercontent.com/assets/11563183/20307165/8f061bbe-ab3e-11e6-9434-b01865c20f80.jpg) ![04operations](https://cloud.githubusercontent.com/assets/11563183/20307166/8f07e12e-ab3e-11e6-9839-4035c9544f32.jpg)
 ![06light](https://cloud.githubusercontent.com/assets/11563183/20307169/8f0b519c-ab3e-11e6-9d02-7477baef6401.jpg) ![07doors](https://cloud.githubusercontent.com/assets/11563183/20307168/8f08f6b8-ab3e-11e6-85eb-466999386dc3.jpg)
