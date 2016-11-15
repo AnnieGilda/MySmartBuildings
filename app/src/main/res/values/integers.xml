@@ -1,0 +1,11 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <integer name="response_ok">200</integer>
+    <integer name="response_no_data">204</integer>
+    <integer name="response_not_found">404</integer>
+    <integer name="water_meter">0</integer>
+    <integer name="gas_meter">1</integer>
+    <integer name="electricity_meter">2</integer>
+    <integer name="all_meters">3</integer>
+
+</resources>

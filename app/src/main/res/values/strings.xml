@@ -1,0 +1,50 @@
+<resources>
+    <string name="app_name">My Smart Buildings</string>
+
+    <string name="navigation_drawer_open">Open navigation drawer</string>
+    <string name="navigation_drawer_close">Close navigation drawer</string>
+
+    <string name="action_settings">Settings</string>
+
+    <!--************************************************************APP FONTS***********************************************************-->
+    <string name="font_light" translatable="false">Fonts/Roboto-Light.ttf</string>
+    <string name="font_normal" translatable="false">Fonts/Roboto-Regular.ttf</string>
+    <string name="font_bold" translatable="false">Fonts/Roboto-Bold.ttf</string>
+    <string name="font_bold_italic" translatable="false">Fonts/Roboto-BoldItalic.ttf</string>
+    <string name="find">Find</string>
+    <string name="no_info">No informations to show.</string>
+    <string name="tag_buildings_list">Fragment_Buildings_Main</string>
+    <string name="text_search">Find...</string>
+    <string name="operation">Select Operation</string>
+    <string name="button_set_lighting">Set Lighting to 30%</string>
+    <string name="button_open_doors">Open doors</string>
+    <string name="button_water_meter">Water meter</string>
+    <string name="button_gas_meter">Gas Meter</string>
+    <string name="button_electricity_meter">Electricity Meter</string>
+    <string name="button_all_meters">All meters</string>
+    <string name="configuration_parameters_mandatory">All the configuration parameters are mandatory!</string>
+    <string name="proxy_ip_address_hint">Proxy Server IP Address</string>
+    <string name="coap_ip_address_hint">CoAP Server IP Address</string>
+    <string name="proxy_port_hint">Proxy Server Port</string>
+    <string name="server_configuration">Server Configuration</string>
+    <string name="preference_proxy_ip">proxy_ip</string>
+    <string name="preference_coap_ip">coap_ip</string>
+    <string name="preference_proxy_port">proxy_port</string>
+    <string name="drawer_server_configuration">Server configuration</string>
+    <string name="cancel">Cancel</string>
+    <string name="error">ERROR!</string>
+    <string name="error_client_vpn_not_found">Client OpenVPN not found, please install it and restart the app.</string>
+    <string name="bundle_meter_type">MeterType</string>
+    <string name="tag_meters_fragment">Meter_Fragment</string>
+    <string name="coap_port_hint">CoAP Server Port</string>
+    <string name="preference_coap_port">coap_port</string>
+    <string name="bundle_coap_port">coap_port</string>
+    <string name="bundle_building_name">Fragment_Title</string>
+    <string name="bundle_is_all_buildings">is_all_buildings</string>
+    <string name="server_number_hint">Number of Server</string>
+    <string name="preference_server_number">server_number</string>
+    <string name="drawer_test">Test</string>
+    <string name="configuration">Configuration</string>
+    <string name="drawer_buildings_list">Buildings List</string>
+    <string name="tag_test">test_fragment</string>
+</resources>

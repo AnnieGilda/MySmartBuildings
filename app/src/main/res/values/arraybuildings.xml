@@ -1,0 +1,30 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <string-array name="buildingsName" translatable="false">
+        <item>Building 1</item>
+        <item>Building 2</item>
+        <item>Building 3</item>
+        <item>Building 4</item>
+        <item>Building 5</item>
+        <item>Building 6</item>
+        <item>Building 7</item>
+        <item>Building 8</item>
+        <item>Building 9</item>
+        <item>Building 10</item>
+    </string-array>
+
+    <string-array name="buildingsVPN" translatable="false">
+       <item>VPN 1</item>
+       <item>VPN 2</item>
+       <item>VPN 3</item>
+       <item>VPN 4</item>
+       <item>VPN 5</item>
+       <item>VPN 6</item>
+       <item>VPN 7</item>
+       <item>VPN 8</item>
+       <item>VPN 9</item>
+       <item>VPN 10</item>
+    </string-array>
+
+
+</resources>

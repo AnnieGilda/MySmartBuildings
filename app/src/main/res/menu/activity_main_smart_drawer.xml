@@ -1,0 +1,25 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <group android:checkableBehavior="single">
+        <item
+            android:id="@+id/nav_buildings_list"
+            android:icon="@drawable/ic_buildings"
+            android:title="@string/drawer_buildings_list" />
+        <item
+            android:id="@+id/nav_test"
+            android:icon="@drawable/ic_test"
+            android:title="@string/drawer_test"
+            android:visible="false" />
+
+    </group>
+
+    <item android:title="@string/configuration">
+        <menu>
+            <item
+                android:id="@+id/nav_server_configuration"
+                android:icon="@drawable/ic_configuration"
+                android:title="@string/drawer_server_configuration" />
+        </menu>
+    </item>
+</menu>

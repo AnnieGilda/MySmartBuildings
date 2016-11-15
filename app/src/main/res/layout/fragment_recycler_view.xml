@@ -1,0 +1,46 @@
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:background="#FFFFFF"
+    android:orientation="vertical"
+    android:weightSum="100">
+
+    <include
+        layout="@layout/waiting_dots"
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center" />
+
+    <FrameLayout
+        android:id="@+id/recyclerView"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_marginBottom="5dp"
+        android:layout_marginLeft="@dimen/paddingRectangle"
+        android:layout_marginRight="@dimen/paddingRectangle"
+        android:layout_marginTop="4dp"
+        android:layout_weight="60"
+        tools:context="com.giovannirizzotti.mysmartbuildings.Fragments.FragmentBuildings">
+
+
+        <android.support.v4.widget.SwipeRefreshLayout
+            android:id="@+id/listViewSwipeRefresh"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content">
+
+            <android.support.v7.widget.RecyclerView
+                android:id="@+id/recyclerViewNews"
+                android:layout_width="match_parent"
+                android:layout_height="match_parent"
+                android:layout_margin="@dimen/margin_recycler_view"
+                android:divider="#FFFFFF"
+                android:dividerHeight="@dimen/listView_divider_height" />
+        </android.support.v4.widget.SwipeRefreshLayout>
+
+        <include layout="@layout/no_info" />
+
+    </FrameLayout>
+
+
+</LinearLayout>

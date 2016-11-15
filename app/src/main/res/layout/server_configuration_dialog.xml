@@ -1,0 +1,114 @@
+<?xml version="1.0" encoding="utf-8"?>
+<ScrollView xmlns:android="http://schemas.android.com/apk/res/android"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent">
+
+    <LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+        android:id="@+id/custom_dialog_layout_design_user_input"
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:orientation="vertical"
+        android:padding="16dp">
+
+        <TextView
+            android:id="@+id/dialogTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/server_configuration"
+            android:textAlignment="center"
+            android:textAppearance="?android:attr/textAppearanceLarge"
+            android:textColor="@android:color/holo_red_dark" />
+
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="20dp"
+            android:background="@color/textGrey" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:text="@string/proxy_ip_address_hint"
+            android:textColor="@color/textBlue"
+            android:textSize="@dimen/text_normal" />
+
+        <EditText
+            android:id="@+id/textProxyIP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:hint="@string/proxy_ip_address_hint"
+            android:inputType="text"
+            android:text="20.30.40.6" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/proxy_port_hint"
+            android:textColor="@color/textBlue"
+            android:textSize="@dimen/text_normal" />
+
+        <EditText
+            android:id="@+id/textProxyPort"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:hint="@string/proxy_port_hint"
+            android:inputType="text"
+            android:text="8080" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/coap_ip_address_hint"
+            android:textColor="@color/textBlue"
+            android:textSize="@dimen/text_normal" />
+
+        <EditText
+            android:id="@+id/textCoapIP"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:hint="@string/coap_ip_address_hint"
+            android:inputType="text"
+            android:text="224.0.1.187" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/coap_port_hint"
+            android:textColor="@color/textBlue"
+            android:textSize="@dimen/text_normal" />
+
+        <EditText
+            android:id="@+id/textCoapPort"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:hint="@string/coap_port_hint"
+            android:inputType="text"
+            android:text="5683" />
+
+        <TextView
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="15dp"
+            android:text="@string/server_number_hint"
+            android:textColor="@color/textBlue"
+            android:textSize="@dimen/text_normal" />
+
+        <EditText
+            android:id="@+id/textServerNumber"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:hint="@string/server_number_hint"
+            android:inputType="number"
+            android:text="2" />
+
+
+    </LinearLayout>
+</ScrollView>

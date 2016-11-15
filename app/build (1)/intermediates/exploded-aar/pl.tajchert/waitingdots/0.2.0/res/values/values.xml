@@ -1,0 +1,7 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <declare-styleable name="WaitingDots"><attr name="dotsColor" format="color"/><attr name="period" format="integer"/><attr name="jumpHeight" format="integer"/><attr name="autoplay" format="boolean"/></declare-styleable>
+    <!-- From: file:/C:/Users/Tajchert/Documents/WaitingDots/lib/src/main/res/values/strings.xml -->
+    <eat-comment/>
+    <string name="app_name">WaitingDots</string>
+</resources>

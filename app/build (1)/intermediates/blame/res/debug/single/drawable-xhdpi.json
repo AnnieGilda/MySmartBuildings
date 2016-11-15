@@ -1,0 +1,26 @@
+[
+    {
+        "merged": "/Volumes/Dati/Cloud/Google Drive/ECS/Laurea/SmartBuildings/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_test.png",
+        "source": "/Volumes/Dati/Cloud/Google Drive/ECS/Laurea/SmartBuildings/app/src/main/res/drawable-xhdpi/ic_test.png"
+    },
+    {
+        "merged": "/Volumes/Dati/Cloud/Google Drive/ECS/Laurea/SmartBuildings/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_search.png",
+        "source": "/Volumes/Dati/Cloud/Google Drive/ECS/Laurea/SmartBuildings/app/src/main/res/drawable-xhdpi/ic_search.png"
+    },
+    {
+        "merged": "/Volumes/Dati/Cloud/Google Drive/ECS/Laurea/SmartBuildings/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_add.png",
+        "source": "/Volumes/Dati/Cloud/Google Drive/ECS/Laurea/SmartBuildings/app/src/main/res/drawable-xhdpi/ic_add.png"
+    },
+    {
+        "merged": "/Volumes/Dati/Cloud/Google Drive/ECS/Laurea/SmartBuildings/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_buildings.png",
+        "source": "/Volumes/Dati/Cloud/Google Drive/ECS/Laurea/SmartBuildings/app/src/main/res/drawable-xhdpi/ic_buildings.png"
+    },
+    {
+        "merged": "/Volumes/Dati/Cloud/Google Drive/ECS/Laurea/SmartBuildings/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_alert.png",
+        "source": "/Volumes/Dati/Cloud/Google Drive/ECS/Laurea/SmartBuildings/app/src/main/res/drawable-xhdpi/ic_alert.png"
+    },
+    {
+        "merged": "/Volumes/Dati/Cloud/Google Drive/ECS/Laurea/SmartBuildings/app/build/intermediates/res/merged/debug/drawable-xhdpi/ic_configuration.png",
+        "source": "/Volumes/Dati/Cloud/Google Drive/ECS/Laurea/SmartBuildings/app/src/main/res/drawable-xhdpi/ic_configuration.png"
+    }
+]

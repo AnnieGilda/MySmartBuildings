@@ -1,0 +1,101 @@
+<?xml version="1.0" encoding="utf-8"?>
+<android.support.v7.widget.CardView xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:card_view="http://schemas.android.com/apk/res-auto"
+    android:id="@+id/card_view"
+    android:layout_width="match_parent"
+    android:layout_height="wrap_content"
+    android:layout_margin="@dimen/margin_item_pre_21"
+    card_view:cardCornerRadius="@dimen/cardCornerRadius"
+    card_view:cardElevation="@dimen/card_view_elevation">
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="wrap_content"
+        android:background="@android:color/white"
+        android:orientation="vertical"
+        android:padding="4dp">
+        <TextView
+            android:id="@+id/tTitle"
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="5dp"
+            android:text="TITLE"
+            android:textColor="@color/textBlue"
+            android:textSize="16sp"
+            android:textStyle="bold" />
+        <View
+            android:layout_width="fill_parent"
+            android:layout_height="2dp"
+            android:layout_marginBottom="10dp"
+            android:background="@color/textGrey"/>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/waterIcon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/water" />
+            <TextView
+                android:id="@+id/tValueWater"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dp"
+                android:layout_marginTop="10dp"
+                android:paddingRight="4dp"
+                android:paddingTop="4dp"
+                android:text="100000"
+                android:textColor="@color/textBlue"
+                android:textSize="@dimen/text_normal" />
+        </LinearLayout>
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/gasIcon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/gas" />
+            <TextView
+                android:id="@+id/tValueGas"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dp"
+                android:layout_marginTop="10dp"
+                android:gravity="center"
+                android:paddingRight="4dp"
+                android:paddingTop="4dp"
+                android:text="100000"
+                android:textColor="@color/textRed"
+                android:textSize="@dimen/text_normal" />
+        </LinearLayout>
+
+        <LinearLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_marginTop="5dp"
+            android:orientation="horizontal">
+            <ImageView
+                android:id="@+id/electricityIcon"
+                android:layout_width="40dp"
+                android:layout_height="40dp"
+                android:layout_marginRight="15dp"
+                android:src="@drawable/electricity" />
+            <TextView
+                android:id="@+id/tValueElectricity"
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content"
+                android:layout_marginBottom="1dp"
+                android:layout_marginTop="10dp"
+                android:paddingRight="4dp"
+                android:paddingTop="4dp"
+                android:text="100000"
+                android:textColor="@color/textDark"
+                android:textSize="@dimen/text_normal" />
+        </LinearLayout>
+    </LinearLayout>
+</android.support.v7.widget.CardView>

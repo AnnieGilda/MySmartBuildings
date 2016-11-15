@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<resources>
+    <color name="colorPrimary">#3F51B5</color>
+    <color name="colorPrimaryDark">#303F9F</color>
+    <color name="colorAccent">#FF4081</color>
+
+
+    <color name="textColorPrimary">#FFFFFF</color>
+    <color name="textColorSecondary">#FFFFFF</color>
+    <color name="textBlue">#0645AD</color>
+    <color name="tabSelector">@android:color/white</color>
+    <color name="tabSelectorDisabled">#B9F6CA</color>
+    <color name="listviewBackground">@color/backgroundGrigio</color>
+    <color name="listviewSeparator">#A5D6A7</color>
+    <color name="hint">#616161</color>
+    <color name="textDark">#000000</color>
+    <color name="textGrey">@android:color/darker_gray</color>
+    <color name="textTitolo">#000000</color>
+    <color name="textRed">#B22B00</color>
+    <color name="bordoRettangolo">@android:color/darker_gray</color>
+    <color name="backgroundGrigio">#EEEEEE</color>
+    <color name="backgroundVerde">#D3EACE</color>
+    <color name="bianco">#FFFFFF</color>
+</resources>
